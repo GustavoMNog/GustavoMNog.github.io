@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #457d7e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#457d7e), to(#182d4a));
+  background: linear-gradient(180deg, #457d7e 0%, #182d4a 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+body .profile {
+  margin: auto;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+body .profile img {
+  width: 110px;
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-box-shadow: 0px 0px 30px white;
+          box-shadow: 0px 0px 30px white;
+}
+
+body .profile h1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+body .profile h2 {
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+body .links {
+  margin: 30px auto;
+  text-align: center;
+  width: 350px;
+}
+
+body .links li {
+  list-style: none;
+}
+
+body .links li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #376667;
+}
+
+body .links li a div {
+  height: 25px;
+  line-height: 25px;
+  width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+
+body .links li a img {
+  position: absolute;
+  left: 0;
+  width: 25px;
+}
+
+body .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
